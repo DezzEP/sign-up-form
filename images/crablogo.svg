@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 3370.82 2384.24" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting key="WDUnits" value="Millimeters"/>
+</metadata>
+<defs>
+<linearGradient gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="-38.9456" x2="7.40298" y1="1119.32" y2="1119.32">
+<stop offset="0" stop-color="#945150"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<linearGradient gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="LinearGradient_2" x1="728.332" x2="738.157" y1="1139.33" y2="1139.33">
+<stop offset="0" stop-color="#945150"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="2384.24" width="3370.82" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M1442.34 1284.65L1369.55 1189.65L1205.45 974.964L1462.08 1109.45L1523.78 1177.31L1547.22 1235.3L1547.22 1303.16L1545.99 1389.53L1458.38 1429.01L1360.91 1411.74L1045.05 1230.37" fill="#8a2725" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M7.40298 1119.32C-7.96377 1119.32-23.3305 1119.32-38.6973 1119.32C-39.9311 1119.32-36.2296 1119.32-34.9958 1119.32C-33.762 1119.32-32.5281 1119.32-31.2943 1119.32C-28.0041 1119.32-24.7139 1119.32-21.4237 1119.32" fill="url(#LinearGradient)" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M731.219 1058.88C731.198 1059.06 731.178 1059.25 731.156 1059.44C731.178 1059.45 731.197 1059.46 731.219 1059.47L731.219 1058.88Z" fill="url(#LinearGradient_2)" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>

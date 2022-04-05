@@ -1,5 +1,95 @@
-h1 {
-  color: pink;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: rgb(240, 245, 250);
+}
+
+.sidebar {
+  display: flex;
+  height: 100vh;
+  background-image: url("../images/chairlift.jpg");
+  background: url("../images/chairlift.jpg") no-repeat center center fixed;
+  --webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 500px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80vw;
+}
+.main .header {
+  background-color: red;
+  font-style: "Helvetica", "Arial", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 20%;
+  padding: 20px;
+  margin-right: 150px;
+}
+.main .header .bottom-header {
+  margin-top: 25px;
+}
+.main .footer {
+  margin: 30px;
+  font-style: "Helvetica", "Arial", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+.info-form {
+  display: flex;
+  color: red;
+  box-sizing: border-box;
+  margin-left: 10px;
+  align-items: center;
+  font-style: "Helvetica", "Arial", sans-serif;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number] {
+  background-color: #fff;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 275px;
+  padding: 7px;
+  font-size: 14px;
+  margin: 14px;
+}
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=password]:hover,
+input[type=number]:hover {
+  border: 1px solid #A67E5B;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+}
+
+button {
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #A67E5B;
 }
 
 /*# sourceMappingURL=style.css.map */
