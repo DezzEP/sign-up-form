@@ -9,6 +9,7 @@ $main-color: #A67E5B;
 $image: url("../images/chairlift.jpg");
 $fonts: "Roboto", "Arial", "Helvitica", sans-serif;
 $fonts-logo: norse-Blood, "Arial", sans-serif;
+$checkmark: url(../images/check_circle_black_24dp.svg);
 
 *{
   margin: 0;
@@ -26,6 +27,7 @@ a{
 body{
   display:flex;
   background-color:  #ddd;
+  
   
   
   
@@ -66,6 +68,9 @@ body{
     img{
       width:40px;
       margin-top:3  px;
+      
+      
+      
     }
     
   }
@@ -73,15 +78,13 @@ body{
  
   
 }
-
-
-
 .main{
   display:flex;
   height:100vh;
   flex-direction: column;
   gap:20px;
   width:70vw;
+  line-height:1.5;
   
   .header{
     font-size: min(1rem);
@@ -169,7 +172,18 @@ input[type='number'] {
 
   &:hover{
     border: 1px solid $main-color;
+    
 }
+  &:invalid{
+    border: 1px solid $main-color;
+  }
+  &:valid{
+    border: 2px solid green;
+    background: $checkmark right center no-repeat;
+
+
+
+  }
 }
 
 label{
@@ -194,4 +208,37 @@ button{
   }
   
   
+}
+@media screen and (max-width:1030px){
+
+  body{
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .sidebar{
+    display:flex;
+    flex-direction: column;
+    
+    min-width:100%;
+    min-height:1000px;
+    
+  }
+  .main{
+    
+    margin-top: 50px;
+  }
+  input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'] {
+
+  width: 200px;;
+}  
+.header{
+  width:90%;
+  margin-top:-20px;
+  margin-bottom:20px;
+}
 }
