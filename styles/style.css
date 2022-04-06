@@ -1,63 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@font-face {
+  font-family: norse-Blood;
+  src: url(../fonts/webfontkit-20220406-073238/norse-bold-webfont.woff), url(../fonts/webfontkit-20220406-073238/norse-bold-webfont.woff2);
+}
 * {
   margin: 0;
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: green;
+}
+a:visited {
+  color: green;
+}
+
 body {
   display: flex;
-  background-color: rgb(240, 245, 250);
+  background-color: #ddd;
 }
 
 .sidebar {
   display: flex;
+  flex-direction: column;
   height: 100vh;
+  flex: 2;
   background-image: url("../images/chairlift.jpg");
-  background: url("../images/chairlift.jpg") no-repeat center center fixed;
+  background: url("../images/chairlift.jpg") no-repeat center left fixed;
   --webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-width: 500px;
+  min-width: 400px;
+  font-family: norse-Blood, "Arial", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar p {
+  font-family: "Roboto", "Arial", "Helvitica", sans-serif;
+  margin-bottom: 20px;
+  color: #fff;
+  opacity: 0.6;
+}
+.sidebar h1 {
+  background-color: rgba(4, 4, 4, 0.5);
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  font-size: 3rem;
+  margin-top: -150px;
+}
+.sidebar h1 img {
+  width: 40px;
+  margin-top: 3 px;
 }
 
 .main {
   display: flex;
-  flex-wrap: wrap;
   height: 100vh;
   flex-direction: column;
-  justify-content: space-around;
-  width: 80vw;
+  gap: 20px;
+  width: 70vw;
 }
 .main .header {
-  background-color: red;
-  font-style: "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  font-size: 1.7rem;
+  font-family: "Roboto", "Arial", "Helvitica", sans-serif;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   height: 20%;
-  padding: 20px;
+  padding: 15px;
   margin-right: 150px;
+  max-width: 51ch;
+  margin-top: 100px;
+  margin-left: 40px;
 }
 .main .header .bottom-header {
   margin-top: 25px;
 }
 .main .footer {
-  margin: 30px;
-  font-style: "Helvetica", "Arial", sans-serif;
+  margin-left: 40px;
+  font-family: "Roboto", "Arial", "Helvitica", sans-serif;
+  font-size: 16px;
+}
+.main .footer p {
+  margin-top: 20px;
 }
 
 .form {
   display: flex;
-  flex-wrap: wrap;
-  max-width: 600px;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #D6D9DC;
+  border-radius: 5px;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.form-row-1,
+.form-row-2,
+.form-row-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .info-form {
   display: flex;
-  color: red;
+  flex: 1;
+  color: #A67E5B;
   box-sizing: border-box;
   margin-left: 10px;
-  align-items: center;
-  font-style: "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto", "Arial", "Helvitica", sans-serif;
 }
 
 input[type=text],
@@ -67,10 +123,10 @@ input[type=number] {
   background-color: #fff;
   border: 1px solid #D6D9DC;
   border-radius: 3px;
-  width: 275px;
-  padding: 7px;
+  padding: 5px;
   font-size: 14px;
-  margin: 14px;
+  margin: 15px;
+  width: 250px;
 }
 input[type=text]:hover,
 input[type=email]:hover,
@@ -80,15 +136,23 @@ input[type=number]:hover {
 }
 
 label {
-  display: block;
-  text-align: left;
+  display: inline-block;
+  text-align: right;
   margin-left: 20px;
 }
 
 button {
-  padding: 15px;
+  padding: 12px;
   width: 200px;
-  border-radius: 10px;
+  border-radius: 12px;
+  background-color: green;
+  font-family: "Roboto", "Arial", "Helvitica", sans-serif;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+}
+button:hover {
+  cursor: pointer;
   background-color: #A67E5B;
 }
 
